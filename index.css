@@ -23,7 +23,25 @@ nav{
 
 }
 .nav{
-    background-color: rgb(236, 227, 227);
+    background-color: rgb(244, 183, 108);
     text-align: left;
+    overflow: hidden;
 
+}
+nav a{
+    padding: 14px 14px;
+    color: #f5f3ef;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    float: left;
+    text-decoration: none;
+
+
+
+}
+.nav a:hover{
+    background-color: transparent;
+    color: white;
 }
