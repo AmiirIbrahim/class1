@@ -1,0 +1,29 @@
+body{
+    background-image: url("images/plane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.h2{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    text-decoration: underline;
+}
+.p1{
+    text-align: left;
+    font-weight: bold;
+    color:black ;
+}
+nav{
+    padding: 2rem;
+    background-color: rgb(236, 226, 226);
+    text-align: left;
+
+}
+.nav{
+    background-color: rgb(236, 227, 227);
+    text-align: left;
+
+}
