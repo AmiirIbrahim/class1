@@ -5,3 +5,27 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
+.h1{
+   font-size: large;
+   font-weight: 500;
+   text-align: center;
+   text-decoration: underline;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav  {
+    background-color:white;
+    overflow: hidden;
+}
+.nav a {
+    color: rgb(106, 106, 201);
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+.nav a:hover {
+    background-color: transparent;
+    color: black;
+}
