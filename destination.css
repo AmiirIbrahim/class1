@@ -1,0 +1,23 @@
+body{
+    background-image: url(images/muscat.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav  {
+    background-color:white;
+    overflow: hidden;
+}
+.nav a {
+    color: rgb(106, 106, 201);
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+.nav a:hover {
+    background-color: transparent;
+    color: black;
+}
