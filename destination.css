@@ -1,16 +1,16 @@
 body{
-    background-image: url(images/muscat.jpeg);
+    background-image: url(images/muscat4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
 .nav  {
-    background-color:white;
+    background-color:rgb(222, 211, 169);
     overflow: hidden;
 }
 .nav a {
-    color: rgb(106, 106, 201);
+    color: yellow;
     text-decoration: none;
     padding: 14px 16px;
     display: block;
@@ -32,4 +32,10 @@ body{
     text-align: left;
     font-weight: bold;
     color: black;
+}
+.ul1{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: beige;
+
 }
