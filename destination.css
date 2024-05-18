@@ -21,3 +21,15 @@ body{
     background-color: transparent;
     color: black;
 }
+.h1{
+    font-size: larger;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.p1{
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
