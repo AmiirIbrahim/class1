@@ -1,3 +1,19 @@
 head{
     background-color:  #ADD8E6;
 }
+.nav  {
+    background-color:black;
+    overflow: hidden;
+}
+.nav a {
+    color: #ADD8E6;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+.nav a:hover {
+    background-color: transparent;
+    color: #ADD8E6;
+}
