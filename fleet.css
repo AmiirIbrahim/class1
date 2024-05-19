@@ -1,0 +1,33 @@
+body{
+    background-color: #ADD8E6;
+}
+.h1{
+    color: black;
+    font-size: larger;font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: wavy;
+    text-decoration: underline;
+}
+.p1{
+text-align: left;
+font-weight: bold;
+color:black;
+}
+.nav  {
+    background-color:black;
+    overflow: hidden;
+}
+.nav a {
+    color: #ADD8E6;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+.nav a:hover {
+    background-color: transparent;
+    color: #ADD8E6;
+}
