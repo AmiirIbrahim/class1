@@ -1,4 +1,4 @@
-head{
+body{
     background-color:  #ADD8E6;
 }
 .nav  {
@@ -31,5 +31,10 @@ head{
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
+    font-weight: bold;
+}
+.ul1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
