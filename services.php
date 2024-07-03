@@ -20,7 +20,7 @@
             }
 
         </style>
-        <a href=",/">About</a>|<a href="fleet.html"> Fleet</a>|<a href="destination.html"> Destinations</a>|<a href="mobile.html"> Mobile App</a>|<a href="r.html">Sign up</a>|<a href="signin.html">Sign in</a>|<a href="booking.html">Book a flight</a>|<a href="services.html">Services</a><br><br>
+        <a href=",/">About</a>|<a href="fleet.html"> Fleet</a>|<a href="destination.html"> Destinations</a>|<a href="mobile.html"> Mobile App</a>|<a href="r.html">Sign up</a>|<a href="signin.html">Sign in</a>|<a href="booking.html">Book a flight</a>|<a href="services.html">Services</a><br><br>z
 
         <body>
             <p style="text-align: left;font-weight: bold;color: black;" ;">
