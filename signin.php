@@ -10,19 +10,22 @@
         <meta hhtp_equiv="Content-Type"content="text/html;
         charset=UTF-8">
         <title>Welcome - Document</title>
-        <style>
-            body{
-                background-image: url("images/plane5.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed;
-                background-position: center;
-            }
+        <link rel="stylesheet" href="signin.css">
+       
+           
            
 
-        </style>
-
-<a href=",/">About</a>|<a href="fleet.html"> Fleet</a>|<a href="destination.html"> Destinations</a>|<a href="mobile.html"> Mobile App</a>|<a href="r.html">Sign up</a>|<a href="signin.html">Sign in</a>|<a href="booking.html">Book a flight</a>|<a href="services.html">Services</a><br><br>
+        
+           <nav class="nav">
+<a href="index.php">About</a>
+<a href="fleet.php"> Fleet</a>
+<a href="destination.php"> Destinations</a>
+<a href="mobile.php"> Mobile App</a>
+<a href="r.php">Sign up</a>
+<a href="signin.php">Sign in</a>
+<a href="booking.php">Book a flight</a>
+<a href="services.php">Services</a><br><br>
+           </nav>
 <body><br><br>
 
         

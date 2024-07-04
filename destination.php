@@ -8,14 +8,14 @@
 
     </head>
     <nav class="nav">
-        <a href="index.html">About</a>
-         <a href="fleet.html"> Fleet</a>
-         <a href="destination.html"> Destinations</a>
-         <a href="mobile.html">Mobile App</a>
-         <a href="r.html">Sign up</a>
-         <a href="signin.html">Sign in</a>
-         <a href="booking.html">Book a flight</a>
-         <a href="services.html">Services</a><br><br>
+        <a href="index.php">About</a>
+         <a href="fleet.php"> Fleet</a>
+         <a href="destination.php"> Destinations</a>
+         <a href="mobile.php">Mobile App</a>
+         <a href="r.php">Sign up</a>
+         <a href="signin.php">Sign in</a>
+         <a href="booking.php">Book a flight</a>
+         <a href="services.php">Services</a><br><br>
         </nav>
     
   
