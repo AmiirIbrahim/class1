@@ -23,6 +23,10 @@
         <a href="services.php">Services</a>
     </nav>
     <br><br>
+    <?php
+    require_once("includes/db_connection.php");
+   
+?>
     <form method="post" action="processes.php">
         First name: <input type="text" name="fName" id="fName" /><br/><br/><br/>
         Last name: <input type="text" name="lName" id="lName" /><br/><br/><br/>
