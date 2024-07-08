@@ -30,14 +30,47 @@
 
         
         <body>
-            <form >
+            <div class="wrapper"
+            <form action="">
+                <h1>Login</h1>
 
-                <input type="email" placeholder="Email"><br><br>
-            Password: <input type="password" name="password" /><br/><br/><br/>
+            <div class="input-box">
+                <input type="text" placeholder="Email"required>
+                <box-icon type='solid' name='user'></box-icon>
+            </div>
             
-<input type="reset" name="reset" value="Reset" />
-<input type="button" name="ok" value="OK" />
+
+            
+                <div class="input-box">
+                    <input type="password"
+                    placeholder="Password"required>
+                    <box-icon type='solid' name='lock-alt'></box-icon>
+                </div>
+                    
+
+            
+            
+            
+
+            <div class="remember-forgot">
+            <label><input type="checkbox">Remeber me</label>
+            <a href="#">Forgot password ?</a>
+            </div>
+            
+            <button type ="submit"class="btn">Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account ?<a href="r.php">Register</a></p>
+        
                 
+            </div>
+
             </form>
+    
+
+            
+
+                
+            
             
         </body>

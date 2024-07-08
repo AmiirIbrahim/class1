@@ -29,7 +29,7 @@ nav{
 
 }
 nav a{
-    padding: 14px 14px;
+    padding: 14px 14px ;
     color: #f5f3ef;
     font-weight: 500;
     transition: background-color 0.2s ease;
@@ -37,6 +37,7 @@ nav a{
     display: block;
     float: left;
     text-decoration: none;
+    border-radius: 15 px;
 
 
 
@@ -44,4 +45,5 @@ nav a{
 .nav a:hover{
     background-color: transparent;
     color: white;
+    text-decoration: underline;
 }
