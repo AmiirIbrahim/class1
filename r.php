@@ -1,4 +1,37 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="icon" href="images/GTAV-LSCustoms-Logo.webp" >
+<?php
+require 'includes/db_connect.php';
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+   
+    $fName = $_POST['fNmae'] ?? null;
+    $lName=$_POST['lName']?? null;
+    $email = $_POST['email'] ?? null;
+    $password = $_POST['password'] ?? null;
+    $gender= $_POST['gender'] ?? null;
+    $age = $_POST['age'] ?? null;
+    $date = $_POST['date'] ?? null;
+    
+   
+
+    // Validate input (additional validation can be added here)
+    if ( $fName && $lName &&  $email && $password && $gender && $age && $date ) {
+        $sql = "INSERT INTO newaccount ( fName,lName,email,password,gender,age,date) VALUES ( '$fName','$lName,'$email,'$password', '$gender', '$age')";
+        
+        if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+    } else {
+        echo "All fields are required.";
+    }
+
+    $conn->close();
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,3 +84,5 @@
     </div>
 </body>
 </html>
+
+
