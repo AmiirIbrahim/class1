@@ -1,23 +1,48 @@
-body{
-    background-image: url("images/plane.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-.nav  {
-    background-color:black;
-    overflow: hidden;
+/* Navigation Bar Styling */
+.nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
 }
 .nav a {
-    color: #ADD8E6;
+    color: #fff;
     text-decoration: none;
-    padding: 14px 16px;
-    display: block;
-    float: left;
-    text-align: left;
+    margin-right: 10px;
 }
 .nav a:hover {
-    background-color: transparent;
-    color: #ADD8E6;
+    color: #ccc;
+}
+
+/* Form Styling */
+form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+form input[type="text"], form input[type="email"], form input[type="password"], form input[type="number"], form select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+form input[type="submit"], form input[type="reset"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #444;
 }
