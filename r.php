@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,11 +25,13 @@
     </nav>
     <br><br>
     <?php
-    require_once("includes/db_connection.php");
+    require_once("connect.php");
    
 ?>
-    <form method="post" action="processes.php">
+    <div class="feedback">
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off" class="feedback">
         First name: <input type="text" name="fName" id="fName" /><br/><br/><br/>
+
         Last name: <input type="text" name="lName" id="lName" /><br/><br/><br/>
         Email: <input type="email" name="email" id="email"><br/><br/>
         Password: <input type="password" name="password" id="password" /><br/><br/><br/>
@@ -40,10 +43,11 @@
             <option value="Rather not say">Rather not say</option>
         </select><br/><br/><br/>
         Age: <input type="number" name="age" id="age"><br/><br/>
-        Deadline: <input type="date" name="deadline"><br/><br/>
+        Date: <input type="date" name="date"><br/><br/>
         <input type="submit" name="submit" value="Submit" />
         <input type="reset" name="reset" value="Reset" />
         
     </form>
+    </div>
 </body>
 </html>
