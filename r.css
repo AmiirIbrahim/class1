@@ -1,16 +1,25 @@
-/* Navigation Bar Styling */
-.nav {
-    background-color: #333;
-    padding: 10px;
-    text-align: center;
+body{
+    background-image: url("images/plane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav  {
+    background-color:white;
+    overflow: hidden;
 }
 .nav a {
-    color: #fff;
+    color: #eddc7d;
     text-decoration: none;
-    margin-right: 10px;
+    padding: 14px 16px;
+    display: block;
+    float: left;
+    text-align: left;
 }
 .nav a:hover {
-    color: #ccc;
+    background-color: transparent;
+    color: black;
 }
 
 /* Form Styling */
